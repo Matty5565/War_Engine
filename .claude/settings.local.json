@@ -6,7 +6,18 @@
       "PowerShell(\"=== War_Engine Contents ===\")",
       "PowerShell(\"=== UE_5.7 ===\")",
       "PowerShell(\"=== War_Engine ===\")",
-      "PowerShell(where.exe git 2>$null; $env:PATH -split \";\" | Where-Object { $_ -match \"git\" })"
+      "PowerShell(where.exe git 2>$null; $env:PATH -split \";\" | Where-Object { $_ -match \"git\" })",
+      "PowerShell(Get-Content \"C:\\\\Users\\\\matth\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\e--Dev-War-Engine\\\\c3527ad8-0e24-4f79-8ff2-70aa63a0aad1\\\\tasks\\\\bffztt21u.output\" -Wait -Tail 40 -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-PSDrive -PSProvider FileSystem | ForEach-Object { Write-Output \"$\\($_.Name\\): $\\($_.Root\\)\" })",
+      "PowerShell(cmd /c \"dir E:\\\\ /b /ad 2>&1\")",
+      "PowerShell(cmd /c \"dir C:\\\\Program Files\\\\Epic Games\\\\ /b /ad 2>&1\")",
+      "PowerShell(cmd /c \"dir E:\\\\Dev\\\\ /b /ad 2>&1\")",
+      "PowerShell(cmd /c \"dir \"\"E:\\\\Dev\\\\UE_5.7\\\\Engine\\\\Build\\\\BatchFiles\\\\\"\" /b 2>&1\")",
+      "PowerShell(cmd /c \"dir E:\\\\Dev\\\\War_Engine\\\\Config\\\\ /b 2>&1\")",
+      "PowerShell(cmd /c \"dir E:\\\\Dev\\\\War_Engine\\\\Content\\\\Maps\\\\ /b 2>&1\")",
+      "PowerShell(cmd /c \"dir E:\\\\Dev\\\\War_Engine\\\\Content\\\\ /b /s 2>&1\")",
+      "PowerShell(cmd /c \"dir E:\\\\Dev\\\\War_Engine\\\\Saved\\\\Config\\\\Windows\\\\ /b 2>&1\")",
+      "PowerShell(cmd /c \"dir E:\\\\Dev\\\\War_Engine\\\\Saved\\\\ /b /s 2>&1\")"
     ]
   }
 }

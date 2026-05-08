@@ -16,6 +16,14 @@ RawData/
 # Cesium plugin precompiled ThirdParty libs — too large for GitHub, re-download with plugin
 Plugins/CesiumForUnreal/Source/ThirdParty/lib/
 
+# Cesium runtime tile cache
+cesium-request-cache.sqlite
+cesium-request-cache.sqlite-shm
+cesium-request-cache.sqlite-wal
+
+# VS generated
+UpgradeLog.htm
+
 # OS
 .DS_Store
 Thumbs.db
