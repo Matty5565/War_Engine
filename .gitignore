@@ -1,0 +1,21 @@
+# UE5 generated — never commit these
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.sln
+*.suo
+.vs/
+*.VC.db
+*.VC.opendb
+
+# RawData — large GIS files, keep local or use Git LFS
+RawData/
+
+# Cesium plugin precompiled ThirdParty libs — too large for GitHub, re-download with plugin
+Plugins/CesiumForUnreal/Source/ThirdParty/lib/
+
+# OS
+.DS_Store
+Thumbs.db

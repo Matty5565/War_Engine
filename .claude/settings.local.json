@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"E:\\\\Dev\\\\War_Engine\" -Force -ErrorAction Continue | ForEach-Object { \"$\\($_.FullName\\) | IsContainer: $\\($_.PSIsContainer\\)\" })",
+      "PowerShell(\"=== UE_5.7 Contents ===\")",
+      "PowerShell(\"=== War_Engine Contents ===\")",
+      "PowerShell(\"=== UE_5.7 ===\")",
+      "PowerShell(\"=== War_Engine ===\")",
+      "PowerShell(where.exe git 2>$null; $env:PATH -split \";\" | Where-Object { $_ -match \"git\" })"
+    ]
+  }
+}
